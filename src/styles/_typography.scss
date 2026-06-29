@@ -50,6 +50,7 @@ img {
 }
 
 .header__button,
+.event-card__image,
 .footer__social,
 .footer__up,
 .footer__link,
@@ -57,4 +58,10 @@ img {
 .menu__link,
 .subscribe__button {
   @include hover(transform, scale(1.05));
+}
+
+.gallery {
+  &__image {
+    @include hover(transform, scaleX(-1) scale(1.03));
+  }
 }
