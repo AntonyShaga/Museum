@@ -63,7 +63,6 @@
   &__form {
     display: grid;
     grid-template-columns: 1fr 50px;
-
     width: 100%;
 
     @include on-tablet {
@@ -121,6 +120,8 @@
   }
 
   &__button {
+    cursor: pointer;
+
     box-sizing: border-box;
     width: 100%;
     height: 50px;
@@ -131,8 +132,6 @@
     background-image: url('../images/arrow-right-black.svg');
     background-repeat: no-repeat;
     background-position: center;
-
-    cursor: pointer;
 
     @include on-tablet {
       height: 70px;
